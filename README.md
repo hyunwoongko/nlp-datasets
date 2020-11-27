@@ -1,6 +1,6 @@
 # ECJK-parallel-corpora
 - This repository indicates the references of the dataset and the number of sentences.
-- I will organize all these data in turn, and upload if opend dataset.
+- I will organize all these data in turn, and upload if opend dataset for researchers in the field of translation
 - If you know any other data, please report it through the [issue](https://github.com/hyunwoongko/ECJK-parallel-corpora/issues).
 <br><br><br>
 
