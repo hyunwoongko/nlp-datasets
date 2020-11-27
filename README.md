@@ -36,8 +36,6 @@
 
 ### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
-- en ↔ ko : [CS224N Subtitles](https://github.com/songys/CS224N_17_KOR_SUB) : 5k
-- en ↔ ko : [CS231N Subtitles](https://github.com/visionNoob/CS231N_17_KOR_SUB) : ?
 - en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
 - en ↔ ja : [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
 - en ↔ ja : [small_parallel_enja](https://github.com/odashi/small_parallel_enja) : 50K
@@ -50,6 +48,15 @@
 - multiple paths : [TED Talks](http://www.cs.jhu.edu/~kevinduh/a/multitarget-tedtalks/) en ko ja zh : ?
 - multiple paths : [Twitter corpora (small)](http://www.cs.cmu.edu/~lingwang/microtopia/#twittergold) en ko ja : 1k
 <br><br><br>
+
+### Translated Materials
+- en ↔ ko : [CS224N Subtitles](https://github.com/songys/CS224N_17_KOR_SUB) : 5k
+- en ↔ ko : [CS231N Subtitles](https://github.com/visionNoob/CS231N_17_KOR_SUB) : ?
+- en ↔ ko : [KaiserreichKoreanTranslation] (https://github.com/FriedrichvonEbert/KaiserreichKoreanTranslation) : ?
+- en ↔ ko : [TheNewOrderKoreanTranslation](https://github.com/FriedrichvonEbert/TheNewOrderKoreanTranslation) : ?
+- en ↔ ko : [EYWOR-Korean-translation](https://github.com/FriedrichvonEbert/EYWOR-Korean-translation) : ?
+- en ↔ ko : [Red-Flood-Korean-Translation](https://github.com/qq97890/Red-Flood-Korean-Translation) : ?
+
 
 ## 2. Closed Dataset (need contact)
 ### Multilingual Corpora
