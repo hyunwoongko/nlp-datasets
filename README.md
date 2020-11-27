@@ -51,4 +51,4 @@
 - en ↔ ko : [AIHub translation dataset](https://aihub.or.kr/aidata/87) : 1.6M
 - en ↔ ko : [AIHub Parallel corpus of specialized fields](https://www.aihub.or.kr/aidata/7974) : 1.5M
 - en ↔ ko : [Ulsan University parallel dataset](https://github.com/nqphuoc/UKren) : 1.25M
-- en ↔ zh : [UMCorpus](http://nlp2ct.cis.umac.mo/um-corpus/index.html) : 
+- en ↔ zh : [UMCorpus](http://nlp2ct.cis.umac.mo/um-corpus/index.html) : ?
