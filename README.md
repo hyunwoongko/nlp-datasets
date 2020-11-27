@@ -22,7 +22,7 @@
 - KDE4 : [en](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/zh_CN.zip) : ?
 - Ubuntu : [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/zh_CN.zip) : ?
 - PHP : [en](https://object.pouta.csc.fi/OPUS-PHP/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-PHP/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-PHP/v1/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-PHP/v1/raw/zh.zip) : ?
-- Global Voice : [en](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/ko.zip)
+- Global Voice : [en](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/ko.zip) : ?
 - ELRC_2922 : [en](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/zh.zip) : ?
 - [Ted Multilingual Corpus](https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus) : ko ja zh : 0.4M
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) en ko zh ja : 20k
