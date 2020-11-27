@@ -32,6 +32,7 @@
 - [NICT QE/APE Dataset](http://paraphrasing.org/~fujita/resources/NICT-QEAPE.html) en ko ja zh : 10k
 - [Twitter corpora (small)](http://www.cs.cmu.edu/~lingwang/microtopia/#twittergold) en ko ja : 1k
 - [Basic Expressions](http://nlp.ist.i.kyoto-u.ac.jp/index.php?plugin=attach&refer=%E6%97%A5%E8%8B%B1%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF&openfile=JEC_basic_sentence_v1-3.zip) en ja zh : 5k
+- [TED Talks](http://www.cs.jhu.edu/~kevinduh/a/multitarget-tedtalks/) en ko ja zh : ?
 
 ### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
