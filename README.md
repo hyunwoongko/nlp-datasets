@@ -32,7 +32,7 @@
 ## Bilingual Corpora
 - en ↔ ko : [AIHub translation Dataset](https://aihub.or.kr/aidata/87) : 1.6M
 - en ↔ ko : [AIHub Parallel corpus of specialized fields](https://www.aihub.or.kr/aidata/7974) : 1.5M
-- en ↔ ko : [Jungyul's Ko-En News Dataset](https://github.com/jungyeul/korean-parallel-corpora) : 10k
+- en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
 - en ↔ ko : [Ulsan University parallel dataset](https://github.com/nqphuoc/UKren) : 1.25M
 - en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
 - en ↔ ja : [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
