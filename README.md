@@ -32,8 +32,11 @@
 - [NICT QE/APE Dataset](http://paraphrasing.org/~fujita/resources/NICT-QEAPE.html) en ko ja zh : 10k
 - [Basic Expressions](http://nlp.ist.i.kyoto-u.ac.jp/index.php?plugin=attach&refer=%E6%97%A5%E8%8B%B1%E4%B8%AD%E5%9F%BA%E6%9C%AC%E6%96%87%E3%83%87%E3%83%BC%E3%82%BF&openfile=JEC_basic_sentence_v1-3.zip) en ja zh : 5k
 
+
+
 ### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
+- en ↔ ko : [CS224N Subtitles](https://github.com/songys/CS224N_17_KOR_SUB) : 5k
 - en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
 - en ↔ ja : [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
 - en ↔ ja : [small_parallel_enja](https://github.com/odashi/small_parallel_enja) : 50K
