@@ -6,7 +6,8 @@
 
 ## Reference:
 - [Opus](http://opus.nlpl.eu/)
-- 
+- [Clarin](https://www.clarin.eu/resource-families/parallel-corpora)
+- [martinweisser](http://martinweisser.org/corpora_site/corpora2.html)
 <br><br>
 
 ### 1. En ↔ ko
