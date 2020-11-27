@@ -1,6 +1,7 @@
 # ECJK-parallel-corpora
 - This repository indicates the references of the dataset and the number of sentences.
-- I will organize these data in turn, and upload if public data (w/o contact)
+- I will organize all these data in turn, and upload if opend data.
+- If you know any other data, please report it through the [issue](https://github.com/hyunwoongko/ECJK-parallel-corpora/issues).
 <br><br>
 
 ## Reference
@@ -9,7 +10,7 @@
 - [martinweisser](http://martinweisser.org/corpora_site/corpora2.html)
 <br><br>
 
-## Opened Dataset
+## 1. Opened Dataset
 ### Multilingual Corpora (w/o contact)
 - JW300 : [en](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ja.zip) : ?
 - Open Subtitles : [en](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/zh_CN.zip) : ?
@@ -42,7 +43,7 @@
 - ja ↔ zh : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83k
 <br><br>
 
-## Closed Dataset 
+## 2. Closed Dataset 
 ### Multilingual Corpora (w/ contact)
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh : 60k
 <br><br>
