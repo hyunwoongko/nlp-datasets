@@ -1,6 +1,6 @@
 # ECJK-parallel-corpora
 - This repository indicates the references of the dataset and the number of sentences.
-- I will organize all these data in turn, and upload if opend data.
+- I will organize all these data in turn, and upload if opend dataset.
 - If you know any other data, please report it through the [issue](https://github.com/hyunwoongko/ECJK-parallel-corpora/issues).
 <br><br><br>
 
@@ -42,7 +42,7 @@
 - ja ↔ zh : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83k
 <br><br><br>
 
-## 2. Closed Dataset 
+## 2. Closed Dataset (need contact)
 ### Multilingual Corpora
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh : 60k
 
