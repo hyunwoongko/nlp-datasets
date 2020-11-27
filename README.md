@@ -25,7 +25,7 @@
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) en ko zh ja
 - [1000 parallel sentences](https://www.kaggle.com/bryanpark/parallelsents) en ko ja
-- [TUFS Asian Language Parallel CorpusA](https://github.com/matbahasa/TALPCo) en ko ja
+- [TUFS Asian Language Parallel Corpus](https://github.com/matbahasa/TALPCo) en ko ja
 <br><br>
 
 ## Bilingual Corpora
