@@ -29,6 +29,7 @@
 - [1000 parallel sentences](https://www.kaggle.com/bryanpark/parallelsents) en ko ja : 1k
 - [TUFS Asian Language Parallel Corpus](https://github.com/matbahasa/TALPCo) en ko ja : 1k
 - [NICT QE/APE Dataset](http://paraphrasing.org/~fujita/resources/NICT-QEAPE.html) en ko ja zh : 10k
+- [Twitter corpora (small)](http://www.cs.cmu.edu/~lingwang/microtopia/#twittergold) en ko ja : 1k
 
 ### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
