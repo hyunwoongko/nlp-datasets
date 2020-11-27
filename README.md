@@ -30,25 +30,13 @@
 <br><br>
 
 ## Bilingual Corpora
-#### En ↔ ko
-- [AIHub Translation Dataset](https://aihub.or.kr/aidata/87) : 1.6M
-- [Jungyul's Ko-En News Dataset](https://github.com/jungyeul/korean-parallel-corpora) : 10K
-- [Ulsan University Parallel Dataset](https://github.com/nqphuoc/UKren) : 1.25M
-
-#### En ↔ Ja
-- [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
-- [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
-- [small_parallel_enja](https://github.com/odashi/small_parallel_enja) : 50K
-- [Japanese-English Legal Parallel Corpus](http://www.phontron.com/jaen-law/) : 0.26M
-
-#### En ↔ zh
-- [UNCorpus](https://conferences.unite.un.org/uncorpus) : 15M
-
-#### Ko ↔ Ja
-- N/A
-
-#### Ko ↔ Zh
-- [Sina Weibo](http://www.cs.cmu.edu/~lingwang/microtopia/#weibo) : 41K
-
-#### Ja ↔ Zh
-- [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83K
+- en ↔ ko : [AIHub Translation Dataset](https://aihub.or.kr/aidata/87) : 1.6M
+- en ↔ ko : [Jungyul's Ko-En News Dataset](https://github.com/jungyeul/korean-parallel-corpora) : 10K
+- en ↔ ko : [Ulsan University Parallel Dataset](https://github.com/nqphuoc/UKren) : 1.25M
+- en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
+- en ↔ ja : [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
+- en ↔ ja : [small_parallel_enja](https://github.com/odashi/small_parallel_enja) : 50K
+- en ↔ ja : [Japanese-English Legal Parallel Corpus](http://www.phontron.com/jaen-law/) : 0.26M
+- en ↔ zh : [UNCorpus](https://conferences.unite.un.org/uncorpus) : 15M
+- ko ↔ zh : [Sina Weibo](http://www.cs.cmu.edu/~lingwang/microtopia/#weibo) : 41K
+- ja ↔ zh : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83K
