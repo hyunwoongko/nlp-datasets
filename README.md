@@ -28,6 +28,7 @@
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) en ko zh ja : 20k
 - [1000 parallel sentences](https://www.kaggle.com/bryanpark/parallelsents) en ko ja : 1k
 - [TUFS Asian Language Parallel Corpus](https://github.com/matbahasa/TALPCo) en ko ja : 1k
+- [NICT QE/APE Dataset](http://paraphrasing.org/~fujita/resources/NICT-QEAPE.html) en ko ja zh : 10k
 
 ### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
@@ -50,3 +51,4 @@
 - en ↔ ko : [AIHub translation dataset](https://aihub.or.kr/aidata/87) : 1.6M
 - en ↔ ko : [AIHub Parallel corpus of specialized fields](https://www.aihub.or.kr/aidata/7974) : 1.5M
 - en ↔ ko : [Ulsan University parallel dataset](https://github.com/nqphuoc/UKren) : 1.25M
+- en ↔ zh : [UMCorpus](http://nlp2ct.cis.umac.mo/um-corpus/index.html) : 
