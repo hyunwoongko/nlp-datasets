@@ -47,6 +47,6 @@
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh : 60k
 
 ### Bilingual Corpora
-- en ↔ ko : [AIHub translation Dataset](https://aihub.or.kr/aidata/87) : 1.6M
+- en ↔ ko : [AIHub translation dataset](https://aihub.or.kr/aidata/87) : 1.6M
 - en ↔ ko : [AIHub Parallel corpus of specialized fields](https://www.aihub.or.kr/aidata/7974) : 1.5M
 - en ↔ ko : [Ulsan University parallel dataset](https://github.com/nqphuoc/UKren) : 1.25M
