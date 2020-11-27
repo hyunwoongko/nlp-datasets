@@ -49,7 +49,7 @@
 ### Translated Materials (Lectures, Games...)
 - en ↔ ko : [CS224N Subtitles](https://github.com/songys/CS224N_17_KOR_SUB) : 5k
 - en ↔ ko : [CS231N Subtitles](https://github.com/visionNoob/CS231N_17_KOR_SUB) : ?
-- en ↔ ko : [KaiserreichKoreanTranslation] (https://github.com/FriedrichvonEbert/KaiserreichKoreanTranslation) : ?
+- en ↔ ko : [KaiserreichKoreanTranslation](https://github.com/FriedrichvonEbert/KaiserreichKoreanTranslation) : ?
 - en ↔ ko : [TheNewOrderKoreanTranslation](https://github.com/FriedrichvonEbert/TheNewOrderKoreanTranslation) : ?
 - en ↔ ko : [EYWOR-Korean-translation](https://github.com/FriedrichvonEbert/EYWOR-Korean-translation) : ?
 - en ↔ ko : [Red-Flood-Korean-Translation](https://github.com/qq97890/Red-Flood-Korean-Translation) : ?
