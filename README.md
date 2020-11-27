@@ -1,5 +1,5 @@
-# ECJK-parallel-corpus
-- Collections of free ECJK parallel corpus
+# ECJK-parallel-corpora
+- Collections of free ECJK parallel corpora
 - Anyone can contribute to this repasitory.
 - This repository indicates the references of the dataset and the number of sentences.
 <br><br>
