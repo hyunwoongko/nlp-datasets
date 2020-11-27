@@ -22,6 +22,11 @@
 - GNOME v1 [en](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ko.zip) : 0.6M 
 - Tanzil v1 [en](https://object.pouta.csc.fi/OPUS-Tanzil/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Tanzil/v1/raw/ko.zip) : 6.2k	
 - bible-uedin [en](https://object.pouta.csc.fi/OPUS-bible-uedin/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-bible-uedin/v1/raw/ko.zip) : 62K
+- KDE4 v2 [en](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ko.zip) : 81K
+- Ubuntu [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ko.zip) : 93K
+- PHP v1 [en](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ko.zip) : 50.7K
+- GlobalVoices v2018q4 : [en](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/ko.zip) : 9K
+- ELRC_2922 v1 [en](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/ko.zip)
 
 ### 2. En ↔ Ja
 - [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
@@ -48,7 +53,7 @@
 - KDE4 v2 [ko](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ja.zip) : 81K
 - Tanzil v1 [ko](https://object.pouta.csc.fi/OPUS-Tanzil/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-Tanzil/v1/raw/ja.zip) : 6.2k	
 - Tatoeba v2020-11-09	[ko](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ja.zip) : 0.6k
-- PHP v1 [ko](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ja.zip)
+- PHP v1 [ko](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ja.zip) : 50.7k
 
 ### 5. Ko ↔ Zh
 - [Ted Multilingual Corpus](https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus) : 0.4M
