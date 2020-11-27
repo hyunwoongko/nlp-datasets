@@ -4,7 +4,7 @@
 - This repository indicates the references of the dataset and the number of sentences.
 <br><br>
 
-## Reference:
+## Reference
 - [Opus](http://opus.nlpl.eu/)
 - [Clarin](https://www.clarin.eu/resource-families/parallel-corpora)
 - [martinweisser](http://martinweisser.org/corpora_site/corpora2.html)
