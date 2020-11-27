@@ -35,8 +35,9 @@
 - en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
 - en ↔ ja : [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
 - en ↔ ja : [small_parallel_enja](https://github.com/odashi/small_parallel_enja) : 50K
+- en ↔ ja : [Kyoto Free Translation Task](http://www.phontron.com/kftt/download/kftt-data-1.0.tar.gz) : ?
 - en ↔ ja : [Japanese-English Legal Parallel Corpus](http://www.phontron.com/jaen-law/) : 0.26M
 - en ↔ zh : [UNCorpus](https://conferences.unite.un.org/uncorpus) : 15M
-- en ↔ zh : [MultiUN](http://www.euromatrixplus.net/multi-un/)
+- en ↔ zh : [MultiUN](http://www.euromatrixplus.net/multi-un/) : ?
 - ko ↔ zh : [Sina Weibo](http://www.cs.cmu.edu/~lingwang/microtopia/#weibo) : 41K
 - ja ↔ zh : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83K
