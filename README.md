@@ -46,7 +46,7 @@
 ### 3. En ↔ zh
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) : 20K
 - GNOME v1 [en](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/zh_CN.zip) : 0.6M 
-- Ubuntu [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/zh.zip) : 93K
+- Ubuntu [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/zh_CN.zip) : 93K
 - KDE4 v2 [en](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/zh_CN.zip) : 81K
 - [UNCorpus](https://conferences.unite.un.org/uncorpus) : 15M
 - 
@@ -65,9 +65,9 @@
 
 ### 5. Ko ↔ Zh
 - [Ted Multilingual Corpus](https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus) : 0.4M
-- GNOME v1 [ko](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/zh.zip) : 0.6M 
-- KDE4 v2 [ko](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/zh.zip) : 81K
-- Ubuntu [ko](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/zh.zip) : 93K
+- GNOME v1 [ko](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/zh_CN.zip) : 0.6M 
+- KDE4 v2 [ko](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/zh_CN.zip) : 81K
+- Ubuntu [ko](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/zh_CN.zip) : 93K
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : 60K
 - [Sina Weibo](http://www.cs.cmu.edu/~lingwang/microtopia/#weibo) : 41K
 - OpenSubtitles v2018 [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) [zh](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/zh_cn.zip) : 0.6M
