@@ -26,7 +26,7 @@
 - Ubuntu [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ko.zip) : 93K
 - PHP v1 [en](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ko.zip) : 50.7K
 - GlobalVoices v2018q4 : [en](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-GlobalVoices/v2018q4/raw/ko.zip) : 9K
-- ELRC_2922 v1 [en](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/ko.zip)
+- ELRC_2922 v1 [en](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-ELRC_2922/v1/raw/ko.zip) : 1.6k
 
 ### 2. En ↔ Ja
 - [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
