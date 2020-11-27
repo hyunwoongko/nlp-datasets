@@ -13,7 +13,7 @@
 ## 1. Opened Dataset
 ### Multilingual Corpora
 - JW300 : [en](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ja.zip) : ?
-- Open Subtitles : [en](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/zh_CN.zip) : ?
+- Open Subtitles : [en](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/zh_CN.zip) [enko-organized](https://ko-nlp.github.io/Korpora/ko-docs/corpuslist/open_subtitles.html) : ?
 - QED : [en](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/zh.zip) : ?
 - Tatoeba : [en](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ja.zip) : ?
 - GNOME : [en](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/zh_CN.zip) : ?
