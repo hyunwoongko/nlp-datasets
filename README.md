@@ -1,6 +1,6 @@
 # ECJK-parallel-corpora
 - This repository indicates the references of the dataset and the number of sentences.
-- I will organize these data in turn, and upload if that data was open data.
+- I will organize these data in turn, and upload if opened data.
 <br><br>
 
 ## Reference
