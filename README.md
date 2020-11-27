@@ -34,26 +34,21 @@
 - [AIHub Translation Dataset](https://aihub.or.kr/aidata/87) : 1.6M
 - [Jungyul's Ko-En News Dataset](https://github.com/jungyeul/korean-parallel-corpora) : 10K
 - [Ulsan University Parallel Dataset](https://github.com/nqphuoc/UKren) : 1.25M
-<br><br>
 
 #### En ↔ Ja
 - [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
 - [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
 - [small_parallel_enja](https://github.com/odashi/small_parallel_enja) : 50K
 - [Japanese-English Legal Parallel Corpus](http://www.phontron.com/jaen-law/) : 0.26M
-<br><br>
 
 #### En ↔ zh
 - [UNCorpus](https://conferences.unite.un.org/uncorpus) : 15M
-<br><br>
 
 #### Ko ↔ Ja
 - N/A
-<br><br>
 
 #### Ko ↔ Zh
 - [Sina Weibo](http://www.cs.cmu.edu/~lingwang/microtopia/#weibo) : 41K
-<br><br>
 
 #### Ja ↔ Zh
 - [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83K
