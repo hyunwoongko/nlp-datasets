@@ -42,6 +42,7 @@
 - KDE4 v2 [en](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/en.zip) [ja](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ja.zip) : 81K
 - Ubuntu [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [ja](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ja.zip) : 93K
 - PHP v1 [en](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/en.zip) [ja](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ja.zip) : 50.7k
+- [JeEn](http://www.phontron.com/jaen-law/) : 0.26M
 
 ### 3. En ↔ zh
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) : 20K
