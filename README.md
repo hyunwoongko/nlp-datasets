@@ -2,13 +2,13 @@
 - This repository indicates the references of the dataset and the number of sentences.
 - I will organize all these data in turn, and upload if opend data.
 - If you know any other data, please report it through the [issue](https://github.com/hyunwoongko/ECJK-parallel-corpora/issues).
-<br><br>
+<br><br><br>
 
 ## Reference
 - [Opus](http://opus.nlpl.eu/)
 - [Clarin](https://www.clarin.eu/resource-families/parallel-corpora)
 - [martinweisser](http://martinweisser.org/corpora_site/corpora2.html)
-<br><br>
+<br><br><br>
 
 ## 1. Opened Dataset
 ### Multilingual Corpora
@@ -28,7 +28,7 @@
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) en ko zh ja : 20k
 - [1000 parallel sentences](https://www.kaggle.com/bryanpark/parallelsents) en ko ja : 1k
 - [TUFS Asian Language Parallel Corpus](https://github.com/matbahasa/TALPCo) en ko ja : 1k
-<br><br>
+<br>
 
 ### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
@@ -41,12 +41,12 @@
 - en ↔ zh : [MultiUN](http://www.euromatrixplus.net/multi-un/) : ?
 - ko ↔ zh : [Sina Weibo](http://www.cs.cmu.edu/~lingwang/microtopia/#weibo) : 41k
 - ja ↔ zh : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83k
-<br><br>
+<br><br><br>
 
 ## 2. Closed Dataset 
 ### Multilingual Corpora
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh : 60k
-<br><br>
+<br>
 
 ### Bilingual Corpora
 - en ↔ ko : [AIHub translation Dataset](https://aihub.or.kr/aidata/87) : 1.6M
