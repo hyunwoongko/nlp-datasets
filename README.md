@@ -37,6 +37,7 @@
 ### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
 - en ↔ ko : [CS224N Subtitles](https://github.com/songys/CS224N_17_KOR_SUB) : 5k
+- en ↔ ko : [CS231N Subtitles](https://github.com/visionNoob/CS231N_17_KOR_SUB) : ?
 - en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
 - en ↔ ja : [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
 - en ↔ ja : [small_parallel_enja](https://github.com/odashi/small_parallel_enja) : 50K
