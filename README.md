@@ -28,10 +28,6 @@
 - [TUFS Asian Language Parallel Corpus](https://github.com/matbahasa/TALPCo) en ko ja : 1k
 <br><br>
 
-### Multilingual Corpora (w/ contact)
-- [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh : 60k
-<br><br>
-
 ### Bilingual Corpora (w/o contact)
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
 - en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
@@ -43,6 +39,12 @@
 - en ↔ zh : [MultiUN](http://www.euromatrixplus.net/multi-un/) : ?
 - ko ↔ zh : [Sina Weibo](http://www.cs.cmu.edu/~lingwang/microtopia/#weibo) : 41k
 - ja ↔ zh : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 83k
+<br><br>
+
+---
+
+### Multilingual Corpora (w/ contact)
+- [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh : 60k
 <br><br>
 
 ### Bilingual Corpora (w/ contact)
