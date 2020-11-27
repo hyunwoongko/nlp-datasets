@@ -1,6 +1,7 @@
 # ECJK-parallel-corpus
 - Collections of free ECJK parallel corpus
 - Anyone can contribute to this repasitory.
+- This repository indicates the source of the dataset and the number of sentences.
 <br><br>
 
 ## Reference:
@@ -13,7 +14,13 @@
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : 60K
 - [Jungyul's Ko-En News Dataset](https://github.com/jungyeul/korean-parallel-corpora) : 10K
 - [Ulsan University Parallel Dataset](https://github.com/nqphuoc/UKren) : 1.25M
-- 
+- JW300 [en](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) : 1.9M
+- Open Subtitles [en](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) : 0.3M
+- QED v2.0a [en](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ko.zip) : 0.7M
+- Tatoeba v2020-11-09	[en](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Tatoeba/v2020-11-09/raw/ko.zip) : 0.6k
+- GNOME v1 [en](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ko.zip) : 0.6M 
+- Tanzil v1 [en](https://object.pouta.csc.fi/OPUS-Tanzil/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-Tanzil/v1/raw/ko.zip) : 6.2k	
+- bible-uedin [en](https://object.pouta.csc.fi/OPUS-bible-uedin/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-bible-uedin/v1/raw/ko.zip) : 62K
 
 ### 2. En ↔ Ja
 - [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
@@ -24,15 +31,17 @@
 
 ### 3. En ↔ zh
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) : 20K
-- 
-- 
+- GNOME v1 [en](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/en.zip) [ja](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ja.zip) : 0.6M 
+- Ubuntu [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [ja](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ja.zip) : 93K
+- KDE4 v2 [en](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/en.zip) [ja](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ja.zip) : 81K
+- [UNCorpus](https://conferences.unite.un.org/uncorpus) : 15M
 - 
 
 ### 4. Ko ↔ Ja
 - [Ted Multilingual Corpus](https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus) : 0.4M
 - JW300 [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ja.zip) : 1.9M
 - Open Subtitles [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ja.zip) : 0.3M
-- QED [ko](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ja.zip)
+- QED v2.0a [ko](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ja.zip) : 0.7M
 - GNOME v1 [ko](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/ja.zip) : 0.6M 
 - Ubuntu [ko](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/ja.zip) : 93K
 - KDE4 v2 [ko](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/ja.zip) : 81K
