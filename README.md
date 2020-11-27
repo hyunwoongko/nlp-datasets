@@ -11,7 +11,7 @@
 <br><br>
 
 ## 1. Opened Dataset
-### Multilingual Corpora (w/o contact)
+### Multilingual Corpora
 - JW300 : [en](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ja.zip) : ?
 - Open Subtitles : [en](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/zh_CN.zip) : ?
 - QED : [en](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/zh.zip) : ?
@@ -30,7 +30,7 @@
 - [TUFS Asian Language Parallel Corpus](https://github.com/matbahasa/TALPCo) en ko ja : 1k
 <br><br>
 
-### Bilingual Corpora (w/o contact)
+### Bilingual Corpora
 - en ↔ ko : [Korean Parallel corpora](https://github.com/jungyeul/korean-parallel-corpora) : 10k
 - en ↔ ja : [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/) : 10.0M
 - en ↔ ja : [Stanford](https://nlp.stanford.edu/projects/jesc/) : 2.8M
@@ -44,11 +44,11 @@
 <br><br>
 
 ## 2. Closed Dataset 
-### Multilingual Corpora (w/ contact)
+### Multilingual Corpora
 - [Kaist Parallel Dataset](http://semanticweb.kaist.ac.kr/home/index.php/KAIST_Corpus) : en ko zh : 60k
 <br><br>
 
-### Bilingual Corpora (w/ contact)
+### Bilingual Corpora
 - en ↔ ko : [AIHub translation Dataset](https://aihub.or.kr/aidata/87) : 1.6M
 - en ↔ ko : [AIHub Parallel corpus of specialized fields](https://www.aihub.or.kr/aidata/7974) : 1.5M
 - en ↔ ko : [Ulsan University parallel dataset](https://github.com/nqphuoc/UKren) : 1.25M
