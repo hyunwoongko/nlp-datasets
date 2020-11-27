@@ -8,6 +8,7 @@
 - [Opus](http://opus.nlpl.eu/)
 - [Clarin](https://www.clarin.eu/resource-families/parallel-corpora)
 - [martinweisser](http://martinweisser.org/corpora_site/corpora2.html)
+- [japanese dataset](http://www.phontron.com/japanese-translation-data.php)
 <br><br><br>
 
 ## 1. Opened Dataset
