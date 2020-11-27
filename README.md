@@ -45,9 +45,9 @@
 
 ### 3. En ↔ zh
 - [Asian Langauge Treebank](https://www2.nict.go.jp/astrec-att/member/mutiyama/ALT/) : 20K
-- GNOME v1 [en](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/zh.zip) : 0.6M 
+- GNOME v1 [en](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-GNOME/v1/raw/zh_CN.zip) : 0.6M 
 - Ubuntu [en](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/raw/zh.zip) : 93K
-- KDE4 v2 [en](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/zh.zip) : 81K
+- KDE4 v2 [en](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/en.zip) [zh](https://object.pouta.csc.fi/OPUS-KDE4/v2/raw/zh_CN.zip) : 81K
 - [UNCorpus](https://conferences.unite.un.org/uncorpus) : 15M
 - 
 
