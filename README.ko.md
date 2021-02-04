@@ -1,9 +1,10 @@
-# NLP Datasets
-- 다양한 NLP Task 들의 데이터셋을 정리합니다.
+# NLP Collections
+- 다양한 NLP Task 들의 데이터셋과 모델에 대해 정리합니다.
 - 테이블의 형식은 태스크마다 약간 상이할 수 있습니다.
 
 <br>
 
+## NLP Datasets
 ## Translation
 |     Type    |  Name   |  Langauges  | Volume |
 |:-----------:|:-------:|:-----------:|:------:|
@@ -100,4 +101,14 @@
 <br>
 
 ## Dialogue
-|
+|          Name          |              Descriptions            |
+|:----------------------:|:-------------------------------------|
+|Persona Chat            |두 명의 크라우드 소서에게 페르소나가 제공되고 서로에 대해 알아가는 대화를 진행하는 데이터셋|
+|ConvAI2                 |Persona Chat 데이터셋을 기반으로 하는 컴피티션 (NIPS2018)|
+|Empathetic Dataset (ED) | |
+
+
+<br>
+
+## NLP Models
+<br>
