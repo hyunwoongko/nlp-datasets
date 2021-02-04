@@ -5,8 +5,8 @@
 <br>
 
 ## Translation
-|     Type    |  Name   |  Langauges  | Volume|
-|:-----------:|:-------:|:-----------:|:-----:|
+|     Type    |  Name   |  Langauges  | Volume |
+|:-----------:|:-------:|:-----------:|:------:|
 |Multi-lingual|  JW300  |[en](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ja.zip)| ? |
 |Multi-lingual|  Open Subtitles | [en](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-OpenSubtitles/v2018/raw/zh_CN.zip)<br>[enko-organized](https://ko-nlp.github.io/Korpora/ko-docs/corpuslist/open_subtitles.html)| ? |
 |Multi-lingual|  QED  | [en](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/ja.zip) [zh](https://object.pouta.csc.fi/OPUS-QED/v2.0a/raw/zh.zip) | ? |
@@ -58,7 +58,7 @@
 | Normal |[RACE](https://user-images.githubusercontent.com/38183241/106818493-b5350380-66bb-11eb-8937-f7bfccda325e.png) | 세계적으로 가장 유명한 QA 데이터셋 중 한 가지. 여러개의 문장을 지문으로 주고 이에 대한 질문이 주어지는 QA 데이터셋|
 | Normal |[SQuAD 1.1](https://user-images.githubusercontent.com/38183241/106780781-afbfc500-668b-11eb-904b-43d96d573a44.png)| 위키피디아를 기반으로 하는 QA 데이터셋. 마찬가지로 세계적으로 가장 유명한 데이터 셋 중 한 가지.|
 | Normal |[SQuAD 2.1](https://user-images.githubusercontent.com/38183241/106781405-5dcb6f00-668c-11eb-84c6-3da9371cdc1e.png)| SQuAD의 다음 버전. 마찬가지로 위키피디아를 기반으로 하는 QA 데이터셋. No Answer가 포함되어 있음.|
-| Normal |[NewsQA](https://user-images.githubusercontent.com/38183241/106818050-16100c00-66bb-11eb-8861-196dac777d1b.png) | SQuAD와 유사함. 정답(Answer)의 타입을 지정하고 정답타입의 비율을 조정하여 더 높은 성능의 모델을 만듦.| 
+| Normal |[NewsQA](https://user-images.githubusercontent.com/38183241/106818050-16100c00-66bb-11eb-8861-196dac777d1b.png) | SQuAD와 유사함. 정답(Answer)의 타입을 지정하고 정답타입의 비율을 조정하여 더 높은 성능의 모델을 만듦.|
 | Normal |[SearchQA](https://user-images.githubusercontent.com/38183241/106822282-342d3a80-66c2-11eb-8b4d-ced3747f52a3.png) | Google 검색으로 만들어진 QA 데이터셋. Jeopardy!에서 QA 쌍을 크롤링 한 뒤 이를 Google에 검색하여 Context를 만듦. Context가 포함된 URL을 함께 제공하고 있음.|
 | Normal |[WikiMovies](https://user-images.githubusercontent.com/38183241/106782855-ff9f8b80-668d-11eb-82d3-cc6b4b6b34f1.png) | 영화에 대한 위키피디아 문서 + 질문들, IE 엔트리, KB 엔트리가 포함된 데이터셋.|
 | Multiple Choice |[MCTest](https://user-images.githubusercontent.com/38183241/106777246-28248700-6688-11eb-8cc6-bf7fcf641d87.png) | 어린이 동화를 지문으로 주고 몇가지 질문이 이어지는 객관식 QA 데이터셋|
@@ -97,3 +97,7 @@
 | Other Languages (KO)|[AIHub-MRC](https://www.aihub.or.kr/aidata/86)| 45만개 수준의 한국어 QA 데이터셋|
 | Other Languages (KO)|[AIHub-Commonsense](https://www.aihub.or.kr/aidata/84)| 10만개 수준의 한국어 QA 데이터셋|
 
+<br>
+
+## Dialogue
+|
