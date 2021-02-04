@@ -4,7 +4,7 @@
 
 <br>
 
-## NLP Datasets
+## Datasets
 ## 1. Machine Translation
 |     Type    |  Name   |  Langauges  | Volume |
 |:-----------:|:-------:|:-----------:|:------:|
@@ -109,10 +109,14 @@
 |[Wizard of Wikipedia](https://user-images.githubusercontent.com/38183241/106834351-9c871680-66d8-11eb-8573-f56d9bbc52f9.png)|주어진 주제에 대해 잘 알고있는 마법사와 호기심 많은 견습생 간의 대화를 수행하는 데이터셋. 봇이 어떤 사실에 대해서 잘 대답하게 할 수 있음.|
 |[Blended Skill Talk](https://user-images.githubusercontent.com/38183241/106834592-17503180-66d9-11eb-9b6f-cad2b14132e2.png)|위 세가지 데이터셋 (페르소나, 감정이해, 지식이해)를 통합한 데이터셋. 블렌더봇 학습에 사용됨|
 |Cornell Movie|영화 자막으로 이루어진 데이터. 내용은 픽션임.|
-|Dialogue NLI||
-
-
-<br>
-
-## NLP Models
-<br>
+|Dialogue NLI|대화 중 컨시스턴시를 유지시키기 위한 데이터셋이. 이 데이터셋으로 NLI를 같이 학습하면 그런 약점들이 좀 완화되지 않을까 싶음.|
+|Reddit|레딧 쓰레드를 이어붙여서 만든 대화 데이터|
+|Twitter|트위터에서 크롤링한 대화 데이터|
+|Open Subtitles|영화 자막을 모아놓은 데이터|
+|Daily Dialog|Topic, Emotion, Utterance Action 등이 잘 정리된 대화 데이터|
+|Holl-E|영화에 관련된 Background knowledge를 포함하는 대화 데이터|
+|ReDial|한 유저가 다른 유저에게 영화를 추천하는 대화를 수행하는 데이터|
+|Image Chat|215개의 개인의 성격 특징을 활용해서 대화를 나눈 데이터셋|
+|Style-Controlled Generation|Image chat를 참고하였음. 레이블이 지정된 대화 데이터셋|
+|DECODE|마지막 발화가 이전 대화 기록들과 모순되는지 여부를 디텍션 하는 데이터셋|
+|TaskMaster-1 2019|Google에서 공개한 고품질 대화 데이터.|
