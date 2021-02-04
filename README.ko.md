@@ -5,7 +5,7 @@
 <br>
 
 ## NLP Datasets
-## Translation
+## 1. Machine Translation
 |     Type    |  Name   |  Langauges  | Volume |
 |:-----------:|:-------:|:-----------:|:------:|
 |Multi-lingual|  JW300  |[en](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ja.zip)| ? |
@@ -52,7 +52,7 @@
 
 <br>
 
-## Question Answering
+## 2. Question Answering
 
 |  Type  |  Name   |                                  Description                                  |
 |:------:|:-------:|:------------------------------------------------------------------------------|
@@ -100,7 +100,7 @@
 
 <br>
 
-## Dialogue
+## 3. Dialogue
 |          Name          |              Descriptions            |
 |:----------------------:|:-------------------------------------|
 |Persona Chat            |두 명의 크라우드 소서에게 페르소나가 제공되고 서로에 대해 알아가는 대화를 진행하는 데이터셋|
