@@ -103,9 +103,13 @@
 ## 3. Dialogue
 |          Name          |              Descriptions            |
 |:----------------------:|:-------------------------------------|
-|Persona Chat            |두 명의 크라우드 소서에게 페르소나가 제공되고 서로에 대해 알아가는 대화를 진행하는 데이터셋|
+|[Persona Chat](https://user-images.githubusercontent.com/38183241/106833539-0a324300-66d7-11eb-97a1-e43bad027d16.png)|두 명의 크라우드 소서에게 페르소나가 제공되고 서로에 대해 알아가는 대화를 진행하는 데이터셋|
 |ConvAI2                 |Persona Chat 데이터셋을 기반으로 하는 컴피티션 (NIPS2018)|
-|Empathetic Dataset (ED) | |
+|[Empathetic Dataset (ED)](https://user-images.githubusercontent.com/38183241/106833776-82006d80-66d7-11eb-802d-d91378ecaeb5.png) | 어떠한 상황 등이 주어지면 그에 대해 대화하는 데이터셋. 봇의 감정적인 이해 능력을 향상시키기 위해 만듦. |
+|[Wizard of Wikipedia](https://user-images.githubusercontent.com/38183241/106834351-9c871680-66d8-11eb-8573-f56d9bbc52f9.png)|주어진 주제에 대해 잘 알고있는 마법사와 호기심 많은 견습생 간의 대화를 수행하는 데이터셋. 봇이 어떤 사실에 대해서 잘 대답하게 할 수 있음.|
+|[Blended Skill Talk](https://user-images.githubusercontent.com/38183241/106834592-17503180-66d9-11eb-9b6f-cad2b14132e2.png)|위 세가지 데이터셋 (페르소나, 감정이해, 지식이해)를 통합한 데이터셋. 블렌더봇 학습에 사용됨|
+|Cornell Movie|영화 자막으로 이루어진 데이터. 내용은 픽션임.|
+|Dialogue NLI||
 
 
 <br>
