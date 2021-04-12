@@ -64,7 +64,7 @@
 |7|+|[SearchQA](https://arxiv.org/abs/1704.05179) | 카테고리, 검색결과, 질문과 정답 데이터셋|
 |8|+|[SQuAD2](https://github.com/facebookresearch/ParlAI/tree/master/parlai/tasks/squad2) | 문단이 주어졌을 때 질문과 정답 데이터셋|
 |9|1|[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) | 위키피디아에서 생성된 질문과 정답들<br> 정답은 주어진 지문 안에서 span으로 찾음|
-|10|2|[GLUE](https://paperswithcode.com/dataset/glue) | 내용 추가하기…|
+|10|2|[GLUE](https://paperswithcode.com/dataset/glue) | NLU 벤치마크 데이터셋 모음|
 |11|3|[MS MARCO](https://microsoft.github.io/msmarco/) | Bing 질문과 사람이 작성한 정답 데이터셋|
 |12|4|[TriviaQA](http://nlp.cs.washington.edu/triviaqa/) | 위키피디아에서 수집한 텍스트 기반 질의응답 데이터셋|
 |13|6|[NewsQA](https://www.microsoft.com/en-us/research/project/newsqa-dataset/) | CNN 뉴스 관련 MRC 데이터셋<br> 정답이 없는 경우도 있음|
