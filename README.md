@@ -53,50 +53,236 @@
 <br>
 
 ## 2. Question Answering
+|   |ref|  Name   |                                  Description                                  |
+|:-:|:-:|:-------:|:------------------------------------------------------------------------------|
+|1|0|[KorQuAD 1.0](https://user-images.githubusercontent.com/38183241/106824070-5f655900-66c5-11eb-9561-e35c3888f844.png) | 대표적인 한국어 QA 데이터셋. SQuAD와 동일한 형식을 따름. 6만개 수준의 데이터셋.|
+|2|0|[KorQuAD 2.0](https://user-images.githubusercontent.com/38183241/106820608-f975d300-66be-11eb-9ad1-66d0442e9371.png) | 대표적인 한국어 QA 데이터셋. HTML 태그, Table 등이 포함된 복잡한 입력이 있기도 하며 지문이 여러개인 Multi-hop 등 다양한 문제를 해결하기 위한 데이터셋.|
+|3|0|[AIHub-MRC](https://www.aihub.or.kr/aidata/86)| 45만개 수준의 한국어 QA 데이터셋|
+|4|0|[AIHub-Commonsense](https://www.aihub.or.kr/aidata/84)| 10만개 수준의 한국어 QA 데이터셋|
+|5|+|[ARC](https://allenai.org/data/arc) | 다지선다 문제풀이 데이터셋|
+|6|+|[Story Cloze Text](https://competitions.codalab.org/competitions/15333) | 지문과 두 개의 결말을 주고 어떤게 맞는지 결정|
+|7|+|[SearchQA](https://arxiv.org/abs/1704.05179) | 카테고리, 검색결과, 질문과 정답 데이터셋|
+|8|+|[SQuAD2](https://github.com/facebookresearch/ParlAI/tree/master/parlai/tasks/squad2) | 문단이 주어졌을 때 질문과 정답 데이터셋|
+|9|1|[SQuAD](https://rajpurkar.github.io/SQuAD-explorer/) | 위키피디아에서 생성된 질문과 정답들<br> 정답은 주어진 지문 안에서 span으로 찾음|
+|10|2|[GLUE](https://paperswithcode.com/dataset/glue) | 내용 추가하기…|
+|11|3|[MS MARCO](https://microsoft.github.io/msmarco/) | Bing 질문과 사람이 작성한 정답 데이터셋|
+|12|4|[TriviaQA](http://nlp.cs.washington.edu/triviaqa/) | 위키피디아에서 수집한 텍스트 기반 질의응답 데이터셋|
+|13|6|[NewsQA](https://www.microsoft.com/en-us/research/project/newsqa-dataset/) | CNN 뉴스 관련 MRC 데이터셋<br> 정답이 없는 경우도 있음|
+|14|7|[RACE](https://www.cs.cmu.edu/~glai1/data/race/) | 영어 독해 데이터셋<br> 지문과 질문이 주어지는 사지선다 데이터셋|
+|15|8|[HotpotQA](https://hotpotqa.github.io/) | 영문 위키피디아에서 수집한 데이터셋<br> 지문의 여기 저기에서 정보를 수집|
+|16|9|[bAbI](https://research.fb.com/downloads/babi/) | 질문, 정답, 사실들이 주어진 데이터셋|
+|17|10|[Natural Questions](https://ai.google.com/research/NaturalQuestions) | 구글 및 위키 페이지에 관련된 질문과 이에 대한 long, short 대답 데이터셋|
+|18|11|[MCTest](https://mattr1.github.io/mctest/) | 이야기 데이터가 주어졌을 때(한 문단보다 길 수 있음) 사지선다 형식으로 질문과 답 쌍 데이터셋| 
+|19|12|[WikiQA](https://paperswithcode.com/dataset/wikiqa) | 위키피디아 기반 질문과 해당 위키 페이지 링크, 해당 페이지의 summary, 그리고 정답 span 데이터|
+|20|13|[CoQA](https://stanfordnlp.github.io/coqa/) | 주어진 passage에 대한 질문, 대답, 그리고 그에 대한 근거 데이터셋|
+|21|14|[SuperGLUE](https://paperswithcode.com/dataset/superglue) | GLUE와 유사하지만 GLUE보다 조금 더 어렵고 더 다양한 task를 커버하는 데이터셋|
+|22|17|[NarrativeQA](https://paperswithcode.com/dataset/narrativeqa) | 위키 summary, 원문 link, 질문, 대답으로 이루어진 데이터셋|
+|23|20|[CommonsenseQA](https://paperswithcode.com/dataset/commonsenseqa) | AMT로 생성한 상식 문제 데이터셋|
+|24|21|[DROP](https://paperswithcode.com/dataset/drop) | 위키피디아에서 수집한 passage와 질문, 그에 대한 답 데이터셋|
+|25|22|[SimpleQuestions](https://paperswithcode.com/dataset/simplequestions) | knowledge base이지만 factoid 질의응답 데이터셋이라 일단 추가함|
+|26|23|[CBT](https://paperswithcode.com/dataset/cbt) | 구텐베르크 book corpus 사용, 여러 문장을 문맥정보로 제공하고 질문과 정답 후보, 정답 데이터셋|
+|27|27|[ROCStories](https://paperswithcode.com/dataset/rocstories) | 짧은 이야기와 옳은 결말, 틀린 결말 데이터셋|
+|28|28|[COPA](https://paperswithcode.com/dataset/copa) | open domain에서 인과 관계 추론 task를 위한 전제와 두 후보 정답 데이터셋|
+|29|29|[QUASAR](https://paperswithcode.com/dataset/quasar-1) | QUASAR-S와 QUASAR-T로 구성된 데이터셋으로 S의 경우 빈칸을 채우는 task, T의 경우 문맥 데이터에서 질문에 대한 답을 찾는 task에 대한 데이터셋|
+|30|30|[WinoGrande](https://paperswithcode.com/dataset/winogrande) | 대명사가 어떤 것을 가리키는지 찾는 task에 대한 데이터셋<br> 특정 단어(trigger word)가 다른 두개의 문장이 주어지고 동일한 대명사가 무엇을 가리키는지에 대한 선택지 및 정답 데이터셋|
+|31|33|[MultiRC](https://paperswithcode.com/dataset/multirc) | passage가 여러 문장으로 주어지고 이에 대한 질문과 선지, 정답, 그리고 정답에 대한 이유 데이터셋|
+|32|34|[WikiReading](https://paperswithcode.com/dataset/wikireading) | 비정형 위키 데이터에서 텍스트 값 예측<br> document, property, 정답 데이터셋|
+|33|36|[BoolQ](https://paperswithcode.com/dataset/boolq) | 질문과 지문이 주어지면 이에 대한 예 아니오 답 데이터셋|
+|34|37|[CosmosQA](https://paperswithcode.com/dataset/cosmosqa) | 상식 기반 독해 데이터셋<br> 지문, 질문, 사지선다 정답 주어짐|
+|35|39|[SPIDER](https://paperswithcode.com/dataset/spider-1) | cross-domain text-to-sql 데이터셋|
+|36|40|[MRQA 2019](https://paperswithcode.com/dataset/mrqa-2019) | 독해 데이터셋<br> SQuAD, NewsQA, TriviaQA, SearchQA, HotpotQA, NauralQuestions 데이터를 pooling한 데이터셋|
+|37|41|[TrecQA](https://paperswithcode.com/dataset/trecqa) | Text retrieval conference Question Answering<br> 상식 질의응답 데이터셋|
+|38|43|QUASAR-T | 29번 QUASAR에 포함되는 데이터셋|
+|39|45|[Social IQA](https://paperswithcode.com/dataset/social-iqa) | Social Interaction QA<br> 사회적 상식을 테스팅하는 데이터셋으로 문장과 질문, 대답으로 구성|
+|40|51|[ELI5](https://paperswithcode.com/dataset/eli5) | long-form 질의응답 데이터<br> 질문, 정답, 지문이 주어지는데 정답이 여러 문장으로 나올 수 있음|
+|41|52|[decaNLP](https://paperswithcode.com/dataset/decanlp) | Natural Language Decathlon이라고 질의응답, 기계번역, 요약, 자연어 이해, 감성 분석 등 열가지 태스크에 대한 benchmark 데이터셋)
+|42|55|[DREAM](https://paperswithcode.com/dataset/dream) | dialog가 지문으로 주어지고, 그에 대한 질문과 정답 데이터셋|
+|43|56|[BookTest](https://arxiv.org/pdf/1610.00956.pdf) | 23번 CBT와 유사하지만 더 큰 데이터셋|
+|44|57|[Who-did-what](https://paperswithcode.com/dataset/who-did-what) |  news corpus에서 데이터 수집<br> 같은 사건에 대한 두 개의 기사에서 한 기사는 맥락으로 사용하고 다른 한 기사는 질문 생성으로 사용한다<br> 지문, 질문, 선택지 데이터셋|
+|45|58|[ShARC](https://paperswithcode.com/dataset/sharc) | 시나리오(맥락), 질문, 정답 데이터셋|
+|46|64|[CODAH](https://paperswithcode.com/dataset/codah) | SWAG 형식의 상식 질의응답 데이터셋<br> description을 주고 문장을 주면 이어서 나올 선지를 선택하는 task|
+|47|71|[SelQA](https://paperswithcode.com/dataset/selqa) | 영문 위키 데이터 기반으로 문장 단위 대답을 얻을 수 있는 질문 및 대답 데이터셋|
+|48|73|[TACRED](https://paperswithcode.com/dataset/tacred) | RE 데이터셋, 크라우드 소싱<br> relation과 pos등의 정보가 태깅되어있음|
+|49|75|QUASAR-S | 19번 QUASAR에 포함된 데이터셋|
+|50|76|[ReClor](https://paperswithcode.com/dataset/reclor) | 문맥, 질문, 선지, 정답이 주어지는 graduate admission exam 데이터셋|
+|51|77|[ReQA](https://paperswithcode.com/dataset/reqa) | Retrieval QA<br> 질문과 지문 주어지고 정답은 지문에 포함됨|
+|52|82|[AmazonQA](https://paperswithcode.com/dataset/amazonqa) | Amazon dataset을 기반으로 review를 보고 질문에 대한 대답이 가능한지 가능하지 않은지 태깅해줌<br> 정답, 질문, 카테고리, 리뷰 등으로 구성|
+|53|85|[ANTIQUE](https://paperswithcode.com/dataset/antique) | yahoo 등에서 사용자들이 실제로 한 non-factoid(where who why 이런 것들) 질의응답 데이터셋|
+|54|91|[TweetQA](https://paperswithcode.com/dataset/tweetqa) | 기자들이 기사 작성을 위해 사용한 트윗들 수집, 사람들이 직접 질문과 답을 작성<br> 짧은 트윗과 질문, 그리고 절 단위 정답 데이터셋|
+|55|94|[[Quizbowl](https://paperswithcode.com/dataset/quizbowl) | 질문이 포함된 지문이 여러 문장과, 이에 대한 정답 데이터셋|
+|56|104|[ReviewQA](https://paperswithcode.com/dataset/reviewqa) | 호텔리뷰 질의응답 데이터셋|
+|57|105|[subjQA](https://paperswithcode.com/dataset/subjqa) | 주관적인? subjective 질문과 리뷰, 정답 스팬이 하이라이트 되어있는 데이터셋<br> 책, 영화, 장보기, 전자기기, 여행 등 6개의 도메인 데이터로 구성|
+|58|107|[MultiReQA](https://paperswithcode.com/dataset/multireqa) | retrieval 모델에 대한 데이터셋<br>  SQuAD데이터같은 데이터셋에서 answer sentence를 retrieve하는 task|
+|59|108|[OPIEC](https://paperswithcode.com/dataset/opiec) | 영문 위키에서 가져온 ie 데이터셋, pos, ner등 각종 태깅이 되어있다|
+|60|109|[ProtoQA](https://paperswithcode.com/dataset/protoqa) | FAMILY-FEUD라는 쇼를 기반으로 하는 상식 질의응답 데이터셋|
+|61|110|[QReCC](https://paperswithcode.com/dataset/qrecc) | 질의응답 데이터셋인데, 문맥에 구애받지 않도록 쿼리를 재작성한 데이터셋|
+|62|113|[WikiSuggest](https://paperswithcode.com/dataset/wikisuggest) | 구글 suggest api를 사용해서 질문 수집, 질문, 정답, 위키 지문 데이터셋|
+|63|114|[Dialog-based Language Learning dataset](https://paperswithcode.com/dataset/dialog-based-language-learning-dataset) | 모델이 학생처럼 학습할 수 있게, 질문하면 대답을 주고, 대답이 맞으면 보상을 주는 형식으로 (기본 정보나 질의응답에는 0, 정답이면 1을 태깅)|
+|64|124|[WikiHowQA](https://paperswithcode.com/dataset/wikihowqa) | answer selection 및 summarization task를 한 번에 학습할 수 있는 질의응답 데이터셋|
 
-|  Type  |  Name   |                                  Description                                  |
-|:------:|:-------:|:------------------------------------------------------------------------------|
-| Normal |[RACE](https://user-images.githubusercontent.com/38183241/106818493-b5350380-66bb-11eb-8937-f7bfccda325e.png) | 세계적으로 가장 유명한 QA 데이터셋 중 한 가지. 여러개의 문장을 지문으로 주고 이에 대한 질문이 주어지는 QA 데이터셋|
-| Normal |[SQuAD 1.1](https://user-images.githubusercontent.com/38183241/106780781-afbfc500-668b-11eb-904b-43d96d573a44.png)| 위키피디아를 기반으로 하는 QA 데이터셋. 마찬가지로 세계적으로 가장 유명한 데이터 셋 중 한 가지.|
-| Normal |[SQuAD 2.1](https://user-images.githubusercontent.com/38183241/106781405-5dcb6f00-668c-11eb-84c6-3da9371cdc1e.png)| SQuAD의 다음 버전. 마찬가지로 위키피디아를 기반으로 하는 QA 데이터셋. No Answer가 포함되어 있음.|
-| Normal |[NewsQA](https://user-images.githubusercontent.com/38183241/106818050-16100c00-66bb-11eb-8861-196dac777d1b.png) | SQuAD와 유사함. 정답(Answer)의 타입을 지정하고 정답타입의 비율을 조정하여 더 높은 성능의 모델을 만듦.|
-| Normal |[SearchQA](https://user-images.githubusercontent.com/38183241/106822282-342d3a80-66c2-11eb-8b4d-ced3747f52a3.png) | Google 검색으로 만들어진 QA 데이터셋. Jeopardy!에서 QA 쌍을 크롤링 한 뒤 이를 Google에 검색하여 Context를 만듦. Context가 포함된 URL을 함께 제공하고 있음.|
-| Normal |[WikiMovies](https://user-images.githubusercontent.com/38183241/106782855-ff9f8b80-668d-11eb-82d3-cc6b4b6b34f1.png) | 영화에 대한 위키피디아 문서 + 질문들, IE 엔트리, KB 엔트리가 포함된 데이터셋.|
-| Multiple Choice |[MCTest](https://user-images.githubusercontent.com/38183241/106777246-28248700-6688-11eb-8cc6-bf7fcf641d87.png) | 어린이 동화를 지문으로 주고 몇가지 질문이 이어지는 객관식 QA 데이터셋|
-| Multiple Choice |[CosmosQA](https://user-images.githubusercontent.com/38183241/106819668-730cc180-66bd-11eb-94bf-c18e3f9b1c26.png) | 일반 상식으로 구성된 지문을 입력받고 그에 대한 질문이 주어지는 Multiple Choice QA 데이터셋.| 
-| Multiple Choice |[ARC](https://user-images.githubusercontent.com/38183241/106816923-72722c00-66b9-11eb-81ea-5d047a4d3f30.png)| 고등학생들 수준의 객관식 QA 데이터셋.|
-| Multiple Choice |[ShARC](https://user-images.githubusercontent.com/38183241/106816923-72722c00-66b9-11eb-81ea-5d047a4d3f30.png)| 기존의 ARC 데이터셋보다 훨씬 더 어려운 Challenging한 Multiple Choice QA 데이터셋.|
-| Multiple Choice |[MultiRC](https://user-images.githubusercontent.com/38183241/106817644-810d1300-66ba-11eb-83a0-44ea39fcb2ba.png) | 여러개의 문장을 주고 질문에 해당하는 정답을 모조리 맞춰야 하는(모두 고르시오 문제) Multiple Choice QA 데이터셋.|
-| Multiple Choice |[ReColor](https://user-images.githubusercontent.com/38183241/106819933-de569380-66bd-11eb-87f5-b41f9c8c5268.png) | 대학원 입학시험 문제에 포함된 논리적 추론 평가용 Multiple Choice QA 데이터셋. 논리적 추론이 가능해야 한다는 특징이 있음.|
-| Multiple Choice |[CommonsenseQA](https://user-images.githubusercontent.com/38183241/106823806-e403a780-66c4-11eb-9a08-4c8a42ac5cfe.png) | ConceptNet을 이용해 만들어진 Multiple Choice QA 데이터셋. 어떠한 단어가 주어지면 해당 단어에 대한 질문이 주어지고, ConceptNet에 연결된 단어들이 보기로 주어짐.|
-| Yes / No |[BoolQ](https://user-images.githubusercontent.com/38183241/106815561-64231080-66b7-11eb-9f98-926964d9f5a5.png)|Yes/No 정답으로 구성된 QA 데이터셋. 상당히 어려운 편에 속함.|
-| Open-domain |[Web Questions](#)|웹 쿼리데이터 (프리베이스)로부터 만든 Opendomain QA 데이터셋.|
-| Open-domain |[Natural Questions](https://user-images.githubusercontent.com/38183241/106779195-19d76a80-668a-11eb-9459-03e561d3d10e.png)|오픈도메인 데이터셋. 위키피디아 문서를 리트리벌 해야함. Long answer와 Short answer가 있음. |
-| Open-domain |[TriviaQA](https://user-images.githubusercontent.com/38183241/106781563-8b181d00-668c-11eb-8792-6f71fc837f5c.png) |Opendomain QA 데이터셋. Question, Answer, Evidence의 삼 중 구조로 이루어짐.|
-| Open-domain |[WikiQA](https://user-images.githubusercontent.com/38183241/106783415-a421cd80-668e-11eb-9918-7437347cdbe3.png)| 위키피디아 데이터셋 기반의 Opendomain QA 데이터셋|
-| Open-domain |[Quasar](https://user-images.githubusercontent.com/38183241/106821859-54102e80-66c1-11eb-9135-6ab9fb1da3fa.png)| 소프트웨어 관련 Fill-in-the-blank 데이터셋과 Web에서 얻은 Opendomain QA가 함께 포함된 데이터셋. |
-| Open-domain<br>+ Abstractive|[ELI5](https://user-images.githubusercontent.com/38183241/106822834-2fb55180-66c3-11eb-8f18-01967bda5804.png)| Opendomain QA 데이터셋으로 질문이 중지면 문서를 리트리벌 해야함. 특이한 점은 Extractive 데이터와 Generative 데이터를 함께 제공하고 있음.|
-| Multi-hop |[HotpotQA](https://user-images.githubusercontent.com/38183241/106777020-f3183480-6687-11eb-8d09-81423e07416c.png)| HotPot QA는 멀티홉 QA 데이터셋. 멀티홉 QA는 여러개의 문서를 주고 QA를 수행하는 태스크를 의미.|
-| Multi-hop |[QAngaroo](https://user-images.githubusercontent.com/38183241/106813688-b0208600-66b4-11eb-9c82-0d13abb26978.png) | 멀티홉 QA 데이터셋. 위키피디아에서 추출한 Wiki-hop과 논문(paper)의 Abstract에서 추출한 Med-hop이 있다.
-| Multi-hop | [DuoRC](https://user-images.githubusercontent.com/38183241/106819451-2aed9f00-66bd-11eb-89b3-6351f43370b9.png) | 두개의 지문(Longer Plot, Shorter Plot)이 주어지고 동일한 질문이 주어졌을 때 두 지문에서 정답을 찾아내야 하는 QA 데이터셋.|
-| Multi-task |[bAbI](https://user-images.githubusercontent.com/38183241/106776275-4473f400-6687-11eb-9817-f585b84028b1.png) | 20개의 태스크가 혼합된 데이터셋으로 모델의 각각 다른 능력을 시험하기 위한 QA 데이터셋.|
-| Multi-task |[MS MARCO](#) | 마이크로소프트에서 만든 MRC 데이터셋. 다양한 태스크들이 존재함. (Document Retrieval, Passage Retrieval, Key Phrase Extraction, QA, NLG 등)|
-| Conversational |[CoQA](https://user-images.githubusercontent.com/38183241/106776588-8e5cda00-6687-11eb-9ab5-440b969b5e97.png) | CoQA는 대화형 QA 시스템을 구축하기 위한 대규모 데이터셋. 지문이 주어지고 인터뷰처럼 대화를 이어나감.|
-| Conversational |[QuAC](https://user-images.githubusercontent.com/38183241/106779693-9702df80-668a-11eb-8d8d-36b26ee16dde.png) | 위키피디아 내용을 질문하는 학생과 선생님의 대화로 구성되는 QA 데이터셋. QuAC은 특이하게 open-ended, unanswerable 등의 질문도 포함함.|
-| Conversational<br>+ Multiple Choice|[DREAM](https://user-images.githubusercontent.com/38183241/106823109-b23e1100-66c3-11eb-9864-fbba906da3c4.png) | 주어지는 Dialouge를 보고 나서 Question에 대한 Multi Choice 문제를 제공하는 QA 데이터셋.|
-|    Hard    |[AQuA](https://user-images.githubusercontent.com/38183241/106775833-d29baa80-6686-11eb-8cb8-399371978257.png)| Algebra QA. 대수적 관계를 시험하기 위한 매우 어려운 QA 데이터셋|
-|    Hard    |[DROP](https://user-images.githubusercontent.com/38183241/106816291-849f9a80-66b8-11eb-874c-e53680322aa7.png) | 매우 어려운 QA 데이터셋, 기존 QA 모델들이 잘 못하는 부분들 몇가지를 집중해서 만든 데이터셋임.|
-|    Hard    |[LearningQ](https://user-images.githubusercontent.com/38183241/106818381-8e76cd00-66bb-11eb-9cd6-0a7248f45879.png) | 마찬가지로 매우 어려운 QA 데이터셋, 산술적인 계산이나 물리/화학적인 개념 등을 자주 물음. 진짜 지문을 이해해야 풀 수 있을 정도로 어려운 QA 데이터셋 |
-| Abstractive|[NarrativeQA](https://user-images.githubusercontent.com/38183241/106778343-38893180-6689-11eb-90e0-b24463812b0e.png) | 영화 스크립트, 스토리 북을 이용해 제작된 Abstractive QA 데이터셋|
-| Abstractive|[InsuranceQA](https://user-images.githubusercontent.com/38183241/106783709-eba85980-668e-11eb-9def-f30bf9f71a49.png) | 깊은 도메인 지식의 이해를 위한 QA 데이터셋. 그림을 봐도 알겠지만 대답의 길이가 굉장히 길다.|
-| Abstractive <br>+ Yes / No|[AmazonQA](https://user-images.githubusercontent.com/38183241/106776040-0d054780-6687-11eb-9452-307165579dd2.png) | 아마존 데이터를 이용한 QA 데이터셋. 140만개로 매우 큰 데이터 셋. 상품에 대한 질문과 대답으로 이루어짐.|
-| Other Languages (Multi)|[TyDiQA](https://user-images.githubusercontent.com/38183241/106821542-b288dd00-66c0-11eb-90ba-04fe4aae01d4.png) | 영어 데이터셋을 11개의 언어로 기계번역한 데이터셋. 학습데이터만 번역 데이터이고 테스트셋은 사람이 만든 데이터셋임.|
-| Other Languages (ZH)|[DuReader](https://user-images.githubusercontent.com/38183241/106820190-41482a80-66be-11eb-8c3b-d82c99f04c01.png) | 대표적인 중국어 QA 데이터셋. 질문 1개에 Context 여러개, Answer 여러개가 존재함. 100만 개 이상의 대량 데이터셋.|
-| Other Languages (ZH)|[C3](https://user-images.githubusercontent.com/38183241/106823394-3abcb180-66c4-11eb-88ad-a5d7dce6ff13.png) | multiple `C`hoice `C`hinese `C`omprehension 데이터셋. 중국어로 되어있는 Multiple Choice QA 데이터 셋이다.|
-| Other Languages (KO)|[KorQuAD 1.0](https://user-images.githubusercontent.com/38183241/106824070-5f655900-66c5-11eb-9561-e35c3888f844.png) | 대표적인 한국어 QA 데이터셋. SQuAD와 동일한 형식을 따름. 6만개 수준의 데이터셋.|
-| Other Languages (KO)|[KorQuAD 2.0](https://user-images.githubusercontent.com/38183241/106820608-f975d300-66be-11eb-9ad1-66d0442e9371.png) | 대표적인 한국어 QA 데이터셋. HTML 태그, Table 등이 포함된 복잡한 입력이 있기도 하며 지문이 여러개인 Multi-hop 등 다양한 문제를 해결하기 위한 데이터셋.|
-| Other Languages (KO)|[AIHub-MRC](https://www.aihub.or.kr/aidata/86)| 45만개 수준의 한국어 QA 데이터셋|
-| Other Languages (KO)|[AIHub-Commonsense](https://www.aihub.or.kr/aidata/84)| 10만개 수준의 한국어 QA 데이터셋|
+### Cross-lingual / multilingual dataset
+|   |ref|  Name   |                                  Description                                  |
+|:-:|:-:|:-------:|:------------------------------------------------------------------------------|
+|1|+|[DuReader](https://ai.baidu.com/broad/subordinate?dataset=dureader) | 중국어 MRC 데이터셋|
+|2|+|[C3](https://dataset.org/c3/) | 중국어 다지선다 데이터셋|
+|3|32|[MLQA](https://paperswithcode.com/dataset/mlqa) | 영어, 아라비아어, 독일어, 스페인어, 힌디어, 베트남어, 중국어 간체에 대해서 동일한 qa dataset이 평균적으로 4가지 다른 언어로 존재|
+|4|44|[TyDi QA](https://paperswithcode.com/dataset/tydi-qa) | 11가지 언어 데이터셋|
+|5|49|[DRCD](https://paperswithcode.com/dataset/drcd) | 오픈도메인 독해 데이터셋, 중국어와 영어가 parallel하게 주어짐|
+|6|50|[XQuAD](https://paperswithcode.com/dataset/xquad) | 스페인어, 독일어, 그리스어, 러시아어, 터키어, 아라비아어, 베트남어, 태국어, 중국어, 힌디어에 대한 질의응답 데이터셋으로 문맥 지문과 정답 span, 그리고 질문 데이터로 구성됨|
+|7|62|[XQA](https://paperswithcode.com/dataset/xqa) | 영어, 중국어, 프랑스어, 독일어, 폴란드어, 포르투갈어, 러시아어, 타밀어, 우크라니아어 총 9개 언어로 구성된 질의응답 데이터셋|
+|8|74|[Wikiconv](https://paperswithcode.com/dataset/wikiconv) | Wiki contributor 간의 대화 말뭉치<br> 영어, 독일어, 러시아어, 중국어, 그리스어 지원|
+|9|79|[FQuAD](https://paperswithcode.com/dataset/fquad) | 프랑스어 독해 데이터셋|
+|10|89|[MKQA](https://paperswithcode.com/dataset/mkqa) | 영어, 아라비아어, 덴마크어, 독일어, 스페인어, 핀란드어, 프랑스어, 히브리어, 헝가리어, 이탈리아어, 일본어, 앙코르어, 한국어, 말레이시아어, 네덜란드어, 노르웨이어, 폴란드어, 포르투갈어, 러시아어, 스웨덴어, 태국어, 터키어, 베트남어, 중국어, 홍콩중국어, 간체중국어 총 26개 언어 질의응답 데이터셋|
+|11|96|[XTREME](https://paperswithcode.com/dataset/xtreme) | 12 종류 언어와 9 task로 이루어진 multilingual transfer learning 데이터셋|
+|12|106|[KLEJ](https://paperswithcode.com/dataset/klej) | 폴란드어 자연어 이해 task 데이터셋|
+|13|121|[RELX](https://paperswithcode.com/dataset/relx) | 영어, 프랑스어, 독일어, 스페인어, 터키어로 구성된 관계 분류 데이터셋|
+|14|125|[XOR-TYDI QA](https://paperswithcode.com/dataset/xor-tydi-qa) | TyDi QA 질문을 기반으로 생성한 데이터셋, TyDi QA보다 다루는 언어는 더 적음|
+
+### 모든 데이터셋
+|   |  Name   |                                  Description                                  |
+|:-:|:-------:|:------------------------------------------------------------------------------|
+|0|[KorQuAD 1.0](https://user-images.githubusercontent.com/38183241/106824070-5f655900-66c5-11eb-9561-e35c3888f844.png) | 대표적인 한국어 QA 데이터셋. SQuAD와 동일한 형식을 따름. 6만개 수준의 데이터셋.|
+|0|[KorQuAD 2.0](https://user-images.githubusercontent.com/38183241/106820608-f975d300-66be-11eb-9ad1-66d0442e9371.png) | 대표적인 한국어 QA 데이터셋. HTML 태그, Table 등이 포함된 복잡한 입력이 있기도 하며 지문이 여러개인 Multi-hop 등 다양한 문제를 해결하기 위한 데이터셋.|
+|0|[AIHub-MRC](https://www.aihub.or.kr/aidata/86)| 45만개 수준의 한국어 QA 데이터셋|
+|0|[AIHub-Commonsense](https://www.aihub.or.kr/aidata/84)| 10만개 수준의 한국어 QA 데이터셋|
+|+|ARC | AI2Reasoning Challenge<br> grade-school level, multiple-choice science questions<br> Challenge Set & Easy Set: Challenge Set: questions answered incorrectly by both a retrieval-based algorithm and a word co-occurrence algorithm|
+|+|QAngaroo | WikiHop과 MedHop 데이터셋|
+|+|Story Cloze Test |dataset for story understanding that provides systems with four sentence stories and two possible endings<br> 네 문장으로 이루어진 지문에 두개의 결말을 주고 어떤게 맞는 결말인지|
+|+|SWAG |Situations With Adversarial Generations<br> grounded commonsense inference<br> video caption 주고 다음에 일어날 일  고르기|
+|+|Recipe QA |multimodal comprehension of cooking recipes|
+|+|DuReader |open-domain Chinese MRC dataset|
+|+|SearchQA |full pipeline of general question-answering<br> question / answer / meta-data|
+|+|AQuA |Algebraic word problem dataset|
+|+|Movie Dialog QA |closed-domain QA dataset asking templated questions about movies based on Wikipedia|
+|+|Movie Dialog Recommendations |questions asking for movie recommendations|
+|+|MTurk WikiMovies |closed-domain QA asking MTurk-derived questions on movies based on Wikipedia|
+|+|SQuAD2 |open-domain QA dataset answerable from given paragraph<br> 답을 주어진 문단에서 찾을 수 있는지 없는지 알 수 없음|
+|+|C3 |multiple-choice answering dataset in Chinese|
+|1|SQuAD | collection of qa pairs derived from wikipedia articles <br> correct answers of questions can be any sequence of tokens in the given text <br> questions and answers are produced by humans|
+|2|GLUE | collection of 9 nlu tasks <br> single-sentence tasks (CoLA, SST-2)<br> paraphrasing task (MRPC, STS-B, QQP)<br> nli tasks (MNLI, QNLI, RTE, WNLI)|
+|3|MS MARCO | 실제 Bing question과 사람이 작성한 answer dataset이었는데, question, nlg, passage ranking, keyphrase extraction, crawling, conversational search dataset이 추가됨|
+|4|TriviaQA | wikipedia에서 수집한 text-based qa dataset<br> 문맥이 길고 정답이 지문 span prediction에서 직접 얻을 수 있지 않은 경우도 있기 때문에 기존의 SQuAD보다 challenging|
+|5|ConceptNet | word와 phrases를 이어주는 knowledge graph<br> designed to represent the general knowledge|
+|6|NewsQA | crowd-sourced mrc dataset of 120,000 qa pairs<br> CNN news articles<br> questions may be unanswerable|
+|7|RACE | english reading comprehension dataset for middle school & high school<br> 지문 / 질문 / 답이 포함되어 있는 4개의 보기 / 답 |
+|8|HotpotQA | 영문 위키피디아에서 수집한 qa dataset<br> crowd-sourced question<br> multi-hop question: 지문의 여기 저기에서 정보를 수집|
+|9|bAbI | 20가지 task로 이루어진 데이터셋<br> question / answer / set of facts
+|10|Natural Questions | google.com query와 그에 해당하는 wiki page 그에 해당하는 long, short answer<br> long & short answer 중 둘 다 비어있을 수도 있고, short answer만 비어있을 수도 있음|
+|11|MCTest | stories & associated questions ( multiple-choice reading comprehension )<br> Open-domain machine comprehension|
+|12|WikiQA | Wikipedia open-domain qa<br> set of question & sentence pairs on open-domain qa<br> Bing query logs / link to wiki page / wiki summary의 각 문장|
+|13|CoQA | 주어진 passage에 대한 question & answer + evidence<br> 지문이 주어지고 각각의 input text에 대해 정답의 span 정보 데이터|
+|14|SuperGLUE | GLUE와 유사하게 8개의 language understanding task<br> GLUE보다 더 어렵고, 더 다양한 task 제공|
+|15|[QuAC](https://paperswithcode.com/dataset/quac) | 14K crowdsourced QA dialog, 98K qa pair<br> interactive dialog btw two crowd workers<br> hidden wiki text에 대해 최대한 많이 알기위한 자유로운 질문을 하는 학생<br> short spans from text로 질문에 대한 답을 제공하는 선생|
+|16|CNN/Daily Mail | Cloze-style reading comprehension dataset<br> CNN & Daily Mail News data<br> Cloze-style : missing word has to be inferred<br> entity 처리가 된 passage / 엔티티 토큰으로 치환된 질문 / 해당되는 엔티티 토큰|
+|17|NarrativeQA | Title / Question / Answer / Summary snippet / Story snippet|
+|18|WebQuestions | google suggest api crawling question + AMTurk answers|
+|19|Quara | quora.com question 기반 400k question pairs<br> binary value indicating whether two questions are paraphrase or not|
+|20|[CommonsenseQA](https://paperswithcode.com/dataset/commonsenseqa) | Amazon Mechanical Turk로 생성한 상식 문제 데이터셋|
+|21|DROP | 크라우드소스 데이터<br> wikipedia article에서 수집된 passage와 질문과 그에 대한 답|
+|22|SimpleQuestions | factoid qa dataset(what, which 등등의 질문)<br> Freebase knowledge base (약간 상식 문제 느낌)|
+|23|CBT | Project Gutenberg의 book corpus 사용<br> 여러 문장을 context로 주고 query와 candidate, 그리고 answer 데이터|
+|24|BioASQ | question / human-annotated answers / relevant contexts on biomedical dataset|
+|25|CORD-19 | scholarly article about coronavirus |
+|26|[ATOMIC](https://homes.cs.washington.edu/~msap/atomic/) | commonsense if-then reasoning|
+|27|ROCStories | commonsense short(5-sent) stories<br> cloze test stories<br> endings collected by Mechanical Turk (right / wrong)<br> context와 그에 대한 옳은 결말과 틀린 결말 데이터셋|
+|28|COPA | open-domain commonsense causal reasoning<br> premise + 2 alternatives, task: select alternative that is more plausible|
+|29|QUASAR | QUASAR-S → fill-in-the-gaps questions collected from Stack Overflow<br> QUASAR-T → open-domain questions collected from various internet sources|
+|30|WinoGrande | crowdsourcing, trigger word가 있음<br> 대명사가 어떤 것을 가리키는지 찾는 task|
+|31|[WikiHop](https://paperswithcode.com/dataset/wikihop) | multi-hop qa dataset → document 여러개 거쳐서 답을 찾는 task<br> entities and relations / supporting documents are from WikiReading<br> 여러 candidate들이 주어지고 query와 뒷받침 문장 여러개가 주어지고 답이 주어짐|
+|32|[MLQA](https://paperswithcode.com/dataset/mlqa) |cross-lingual question answering dataset ( English, Arabic, German, Spanish, Hindi, Vietnamese, Simplified Chinese)<br> 동일한 qa dataset을 여러 언어로(평균적으로 질의응답별 4가지 다른 언어로 존재)|
+|33|MultiRC |short paragraphs, multi-sentence questions<br> paragraph의 여러 문장을 조합하면 답을 찾을 수 있는 task<br> 정답지의 갯수는 선제시X<br> 정답이 text의 span이라는 보장도 없다.<br> domain은 news, fiction, historical text 등 7 가지|
+|34|WikiReading | task: predict textual values from unstructured knowledge base wiki data<br> Document / Property / Answer|
+|35|e-SNLI | used for various goals, such as obtaining full sentence justifications of a model's decisions, improving universal sentence representations and transferring to out-of-domain NLI datasets<br> 전제, 가정, label이 주어지면 premise에서 중요하다고 생각되는 부분에 하이라이트, explanation 붙임|
+|36|BoolQ | qa dataset for yes/no question<br> question / passage / answer(yes/no)|
+|37|CosmosQA | commonsense-based reading comprehension<br> passage / question / multiple-choice +answer|
+|38|Semantic Scholar | titles & abstract of scientific papers from 1985 to 2017|
+|39|SPIDER | large-scale, cross-domain semantic parsing & text-to-SQL dataset|
+|40|MRQA 2019 | dataset for evaluating generalization capability<br> context 주고 question 주고 answer<br> SQuAD, NewsQA, TriviaQA, SearchQA, HotpotQA, NaturalQuestions<br> out-of-domain → BioASQ, DROP, DuoRC, RACE, RelationExtraction, TextbookQA<br> 각각의 데이터를 본인들 형식으로 수정|
+|41|[TrecQA](https://paperswithcode.com/dataset/trecqa) | Text Retrieval Conference Question Answering (TREC-8 ~ TREC-13)<br> Q: Who was Lincoln’s Secretary of State? / A: William Seward|
+|42|InsuranceQA | question answering dataset for the insurance domain|
+|43|QUASAR-T | 43013 open-domain trivia questions & their answers from various internet sources<br> answer → free-form spans of text, mostly noun phrases|
+|44|[TyDi QA](https://paperswithcode.com/dataset/tydi-qa) | 11 typologically diverse languages<br> multilingual dataset|
+|45|Social IQA | social common-sense intelligence<br> motivation, 다음에 일어날 일, emotional reaction 등을 추론하는 task<br> context / question / answer(multiple choice)|
+|46|WikiMovies | question answering for movies content|
+|47|ComplexWebQuestions | qa that require reasoning over multiple web snippets<br> interact with search engine / reading comprehensin task / semantic parsing task|
+|48|DuoRC | pairs of movie plots / each pair reflects two versions of same movie<br> 답이 없는 경우도 있고, 주어진 지문 외의 지식으로 답을 해야하는 경우도 있음|
+|49|DRCD | open domain traditional Chinese machine reading comprehension dataset<br> 중국어와 영어가 parallel로 passage, question, answer가 주어진다|
+|50|XQuAD | benchmark dataset for evaluating cross-lingual question answering performance<br> Spanish, German, Greek, Russian, Turkish, Arabic, Vietnamese, Thai, Chinese, Hindi<br>  Context paragraph with answer spans / Questions|
+|51|ELI5 | long-form question answering, part of Dodecadialogue<br> Question / Answer / Documents<br> Answer가 여러 문장|
+|52|[decaNLP](http://decanlp.com) | Natural Language Decathlon(10종 경기) Benchmark<br> qa, mt, summarization, nli, sentiment analysis, semantic role labeling, zero-shot relation extraction, goal-oriented dialogue, sp, common-sense pronoun resolution|
+|53|emrQA | 1M question-logical form / domain specific large-scale qa dataset<br> 데이터 생성을 logical form slot filling으로 한 것으로 보임<br> passage / question / answer|
+|54|QASC | qa focus on sentence composition<br> 8-way multiple-choice grade(?) school science<br> 과학 문제 / 정답 / annotated facts|
+|55|DREAM | multiple choice dialogue based reading comprehension examination dataset<br> collected from english-as-a-foreign-language examinations<br> dialogue / question / choices + answer|
+|56|BookTest | CBT(Children’s Book Test, 23번 데이터셋)와 유사하지만 60배 큰 데이터셋|
+|57|Who-did-What | news corpus에서 데이터 수집, CBT와 유사한 질문<br> 각각의 질문은 2개의 독립적인 기사(?) → 한 기사로는 맥락을 제공하고 동일한 사건에 대한 다른 기사로 query를 생성한다<br> Passage / Question / choices|
+|58|[ShARC](https://paperswithcode.com/dataset/sharc) | Conversational qa dataset, text containing rules<br> Category / Questions+Answer / Scenario / %|
+|59|CliCR | domain specific reading comprehension for cloze queries from clinical case reports|
+|60|[BREAK](https://paperswithcode.com/dataset/break) | complex question을 이해할 수 있게 하는 데이터셋<br> Question Decomposition Meaning Representation이 주어진다|
+|61|MathQA | AQuA dataset 개선<br> 질문 / 수식 스택 / argument 추가|
+|62|XQA | 90K qa pairs in 9 languages for cross-lingual open-domain qa<br> multilingual dataset → language / question / answer|
+|63|MetaQA | movie ontology based on WikiMovies dataset, 3-hop queries|
+|64|[CODAH](https://paperswithcode.com/dataset/codah) | Common-sense qa in SWAG style<br> 사람들이 피드백을 기반으로 직접 생성<br> Description을 주고 문장을 주면 이어서 나올 선지를 선택|
+|65|[PybMedQA](https://paperswithcode.com/dataset/pubmedqa) | yes/no/maybe로 대답할 수 있는 research question answer dataset<br> biomedical question answering dataset|
+|66|[MedHop](https://paperswithcode.com/dataset/medhop) | WikiHop과 유사하게 PubMed에서 수집한 biomedical qa dataset|
+|67|[CSQA](https://paperswithcode.com/dataset/csqa) | Complex Sequential QA<br> 1.6M turn으로 구성된 dialog dataset<br> 단일 튜플로 대답할 수 있는 질문들과는 달리 더 큰 subgraph가 필요한 질문들로 구성<br> Knowledge graph 사용|
+|68|[CLOTH](https://paperswithcode.com/dataset/cloth) | Cloze test by teacher → 빈칸에 들어갈 단어 찾기, 4지선다<br> middle, high school level english language exam|
+|69|[ComQA](https://paperswithcode.com/dataset/comqa) | Complex Factoid QA with Paraphrase Clusters<br> compositionality(합성성, 의미이론), temporal reasoning, comparison등의 task<br> WikiAnswers community QA platform에서 가져온 데이터<br>  -> 보통 search engine에서 답을 얻기 어려운 질문들도 포함되어있음|
+|70|[QuaRel](https://paperswithcode.com/dataset/quarel) | crowdsource 데이터, multiple-choice story questions|
+|71|[SelQA](https://paperswithcode.com/dataset/selqa) | crowdsource 데이터, sentence length answer drawn from 10 most prevalent topics in english wiki|
+|72|CovidQA | kaggle covid-19 dataset|
+|73|[TACRED](https://paperswithcode.com/dataset/tacred) | [dataset](https://raw.githubusercontent.com/yuhaozhang/tacred-relation/master/dataset/tacred/dev.json) <br> RE dataset, annotated by crowd workers<br> 각각의 type과 span이 tag로 달려있음|
+|74|[WikiConv](https://paperswithcode.com/dataset/wikiconv) | history of conversations between contributors to Wikipedia<br> Eng, German, Russian, Chinese, Greek 지원|
+|75|[QUASAR-S](https://paperswithcode.com/dataset/quasar-s) | QA by Search and Reading, Stack overflow<br> cloze-style queries on definitions of software entity tags on Stack overflow<br> 답은 정해진 4874 entity에서만 있음<br> Question / Answer / Context excerpt|
+|76|[ReClor](https://paperswithcode.com/dataset/reclor) | logical reasoning questions of standardized graduate admission exam<br> Context / Question / Option / Answer|
+|77|ReQA | Retrieval Question Answering, large set of document에서 답을 찾아오는 task<br> Question / Answer in context|
+|78|WIQA | What-If QA<br> perturbation(섭동, 천체의 궤도에 영향을 미치는 인력)을 설명하는 dataset|
+|79|FQuAD | French Native Reading Comprehension dataset on Wikipedia articles|
+|80|[QuaRTz](https://paperswithcode.com/dataset/quartz) | Crowdsourced dataset of multiple-choice on open domain qualitative relationship (더 많고 더 적고 증가하고 줄어들고 등의 관계를 알아내는 것)<br> 각 질문은 405개의 background sentences와 paired|
+|81|[Qulac](https://paperswithcode.com/dataset/qulac) | question for lack of clarity in open-domain information-seeking conversations<br> 모호한 질문이 들어왔을 때 좀 더 구체적으로 되묻는 데이터셋으로 추정|
+|82|[AmazonQA](https://paperswithcode.com/dataset/amazonqa) | 923k questions, Amazon dataset을 기반으로 review를 보았을 때 각각의 질문이 대답 가능한지 가능하지 않은지 태깅해줌<br> answers / Question text / Category / review-snippets|
+|83|ODSQA | open-domain spoken dataset in Chinese|
+|84|[SciREX](https://paperswithcode.com/dataset/scirex) | document level IE dataset|
+|85|[ANTIQUE](https://paperswithcode.com/dataset/antique) | 2626 open-domain non-factoid questions<br> yahoo 등에서 실제 유저들이 한 질문들로 구성|
+|86|[GenericsKB](https://paperswithcode.com/dataset/genericskb) | generic sentences dataset → generic은 ai 시스템에서 knowledge source로 쓰임|
+|87|[TechQA](https://paperswithcode.com/dataset/techqa) | domain-adaptation qa dataset for technical support domain<br> technical forum에서 사용자들이 한 질문들로 구성되어있음<br> IBM Developer, IBM Developer Works에서 가져옴|
+|88|CCPE-M | user와 assistant 간의 영어 발화 데이터<br> two paid crowd workers using wizard-of-oz methodology|
+|89|[MKQA](https://paperswithcode.com/dataset/mkqa) | Multilingual Knowledge QA<br> open-domain qa dataset, 26개 언어 지원 ( 한국어 포함 )|
+|90|[Mathematics dataset](https://paperswithcode.com/dataset/mathematics) | 수학 질문 & 답 데이터셋, 문제에 수식이 포함되어 있는 경우도 있고 없는 경우도 있음|
+|91|[TweetQA](https://paperswithcode.com/dataset/tweetqa) | journalist들이 뉴스 기사 작성을 위해 사용한 트윗들 수집<br> 인간 annotator들이 질문과 답을 작성, abstractive한 answer들 있음<br> task: read short tweet and question → output text phrase as answer|
+|92|[CQASUMM](https://paperswithcode.com/dataset/cqasumm) | Community QA Summarization<br> 4.4 mil Yahoo!로 생성한 dataset|
+|93|[FreebaseQA](https://paperswithcode.com/dataset/freebaseqa) | open-domain QA over Freebase knowledge graph, open-domain<br> trivia(Quiz) data를 Freebase에 맞게 고치고, human annotator가 verify|
+|94|[Quizbowl](https://paperswithcode.com/dataset/quizbowl) | multiple sentences, clues arranged by difficulty, identify entity<br> 지문이 여러 문장으로 주어지고, 질문이 포함되어 있음, 다 읽고 정답 맞추는 형식|
+|95|[X-WikiRE](https://paperswithcode.com/dataset/x-wikire) | multi-lingual relation extraction dataset<br> 독일어, 영어, 스페인어, 프랑스어, 이탈리아어 지원<br> ex. 아마존은 어디에 위치하는가 → context 보고 정답 맞추는 것|
+|96|[XTREME](https://paperswithcode.com/dataset/xtreme) | Cross-lingual TRansfer Evaluation of Multilingual Encoder<br> multilingual transfer learning<br> 40 typologically diverse language spanning 12 language families|
+|97|HeadQA |multi-choice qa, Spanish healthcare system 입사(?) 시험 data|
+|98|PEYMA | NER dataset, document from 10 news websites|
+|99|Almawave-SLU | Italian dataset for Spoken Language Understanding|
+|100|COVID-Q | CoVID-19 questions|
+|101|[ClarQ](https://paperswithcode.com/dataset/clarq) | Stackexchange에서 가져온 데이터|
+|102|JEC-QA | Legal Question Answering dataset from 중국 국가 법 시험|
+|103|[MATINF](https://paperswithcode.com/dataset/matinf) |Maternal and Infant dataset → 중국의 임신 육아 도메인 qa 데이터셋|
+|104|[ReviewQA](https://paperswithcode.com/dataset/reviewqa) | 호텔 리뷰 qa dataset|
+|105|SubjQA | subjective에 집중하는 qa dataset<br> books, movies, grocery, electronics, TripAdvisor 등 6개 도메인 데이터<br> question & review, span is highlighted as answer|
+|106|KLEJ | 9 eval task for Polish language understanding task|
+|107|[MultiReQA](https://paperswithcode.com/dataset/multireqa) | cross-domain eval for retrieval qa model<br> SearchQA, TriviaQA, TextbookQA 등의 데이터셋 포함, 몇몇은 테스트 데이터만 있음|
+|108|[OPIEC](https://paperswithcode.com/dataset/opiec) | Open Information Extraction Corpus<br> English Wikipedia로 만든 Open Information Extraction corpus<br> Pos tag, NER tag 등의 태그가 달려있음|
+|109|[ProtoQA](https://paperswithcode.com/dataset/protoqa) | common sense reasoning, FAMILY-FEUD라는 쇼에서 가져온 데이터, eval set은 크라우드 소싱|
+|110|[QReCC](https://paperswithcode.com/dataset/qrecc) | 14k conversation w| 81K qa pairs<br> TREC CAsT, QuAC, Google Natural Question에서 가져온 데이터<br> context-independent하게 query를 rewrite|
+|111|ScienceExamCER | 초중등 수준 과학 시험 데이터|
+|112|Shmoop Corpus | 231 stories paired with detailed summary for each chapter<br> cloze task, abstractive summarization task등이 있음|
+|113|[WikiSuggest](https://paperswithcode.com/dataset/wikisuggest) | 구글 suggest api를 사용해서 question 수집<br> google search가 위키에서 찾은 짧은 답을 가져오면 question / answer / wiki doc 생성<br> 정확한 답 없으면 prune|
+|114|[Dialog-based Language Learning dataset](https://paperswithcode.com/dataset/dialog-based-language-learning-dataset) | 모델이 학생처럼 학습할 수 있게, 질문하면 대답을 주고, 대답이 맞으면 보상을 주는 형식으로 (기본 정보나 질의응답에는 0, 정답이면 1을 태깅)|
+|115|MEDIQA-AnS | consumer health question  관련 question-driven summaries of answers|
+|116|MeQSum | dataset for medical question summarization|
+|117|MilkQA | dairy domain qa dataset, Portuguese|
+|118|NQuAD | Nuclear Question Answering Dataset|
+|119|NText | 8 mil word dataset in nuclear paper domain|
+|120|[OTT-QA](https://paperswithcode.com/dataset/ott-qa) | Open Table-and-text QA dataset<br> table이나 text를 웹에서 가져다가 대답을 해야되는 형식<br> HybridQA dataset에서 re-annotate한 것|
+|121|RELX | cross-lingual relation classification dataset in 영어, 프랑스어, 독일어, 스페인어, 터키어|
+|122|[SCDE](https://paperswithcode.com/dataset/scde) | 중국 학교 영어시험에서 가져온 human-created sentence cloze dataset|
+|123|[TupleInf Open IE Dataset](https://paperswithcode.com/dataset/tupleinf-open-ie-dataset) | Open IE tuples extracted from “Answering Complex Questions Using Open Information Extraction”|
+|124|[WikiHowQA](https://paperswithcode.com/dataset/wikihowqa) | Community based qa dataset<br> Joint Learning of Answer Selection and Answer Summary Generation in Community Question Answering이라는 논문에서 제안|
+|125|[XOR-TYDI QA](https://paperswithcode.com/dataset/xor-tydi-qa) | TyDi QA의 질문을 기반으로 생성한 cross-lingual dataset|
 
 <br>
 
