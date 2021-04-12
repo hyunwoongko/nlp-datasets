@@ -283,7 +283,6 @@
 |123|[TupleInf Open IE Dataset](https://paperswithcode.com/dataset/tupleinf-open-ie-dataset) | Open IE tuples extracted from “Answering Complex Questions Using Open Information Extraction”|
 |124|[WikiHowQA](https://paperswithcode.com/dataset/wikihowqa) | Community based qa dataset<br> Joint Learning of Answer Selection and Answer Summary Generation in Community Question Answering이라는 논문에서 제안|
 |125|[XOR-TYDI QA](https://paperswithcode.com/dataset/xor-tydi-qa) | TyDi QA의 질문을 기반으로 생성한 cross-lingual dataset|
-
 <br>
 
 ## 3. Dialogue
