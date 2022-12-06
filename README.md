@@ -1,11 +1,4 @@
-# NLP Collections
-- 다양한 NLP Task 들의 데이터셋과 모델에 대해 정리합니다.
-- 테이블의 형식은 태스크마다 약간 상이할 수 있습니다.
-
-<br>
-
-## Datasets
-## 1. Machine Translation
+# 1. Machine Translation
 |     Type    |  Name   |  Langauges  | Volume |
 |:-----------:|:-------:|:-----------:|:------:|
 |Multi-lingual|  JW300  |[en](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/en.zip) [ko](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ko.zip) [ja](https://object.pouta.csc.fi/OPUS-JW300/v1/raw/ja.zip)| ? |
@@ -52,8 +45,8 @@
 
 <br>
 
-## 2. Question Answering
-### 주요 데이터셋
+# 2. Question Answering
+## 주요 데이터셋
 |   |ref|  Name   |                                  Description                                  |
 |:-:|:-:|:-------:|:------------------------------------------------------------------------------|
 |1|0|[KorQuAD 1.0](https://user-images.githubusercontent.com/38183241/106824070-5f655900-66c5-11eb-9561-e35c3888f844.png) | 대표적인 한국어 QA 데이터셋. SQuAD와 동일한 형식을 따름. 6만개 수준의 데이터셋.|
@@ -139,7 +132,7 @@
 |13|121|[RELX](https://paperswithcode.com/dataset/relx) | 영어, 프랑스어, 독일어, 스페인어, 터키어로 구성된 관계 분류 데이터셋|
 |14|125|[XOR-TYDI QA](https://paperswithcode.com/dataset/xor-tydi-qa) | TyDi QA 질문을 기반으로 생성한 데이터셋, TyDi QA보다 다루는 언어는 더 적음|
 
-### 모든 데이터셋
+## 모든 데이터셋
 |   |  Name   |                                  Description                                  |
 |:-:|:-------:|:------------------------------------------------------------------------------|
 |0|[KorQuAD 1.0](https://user-images.githubusercontent.com/38183241/106824070-5f655900-66c5-11eb-9561-e35c3888f844.png) | 대표적인 한국어 QA 데이터셋. SQuAD와 동일한 형식을 따름. 6만개 수준의 데이터셋.|
@@ -286,7 +279,7 @@
 |125|[XOR-TYDI QA](https://paperswithcode.com/dataset/xor-tydi-qa) | TyDi QA의 질문을 기반으로 생성한 cross-lingual dataset|
 <br>
 
-## 3. Dialogue
+# 3. Dialogue
 |          Name          |              Descriptions            |
 |:----------------------:|:-------------------------------------|
 |[Persona Chat](https://user-images.githubusercontent.com/38183241/106833539-0a324300-66d7-11eb-97a1-e43bad027d16.png)|두 명의 크라우드 소서에게 페르소나가 제공되고 서로에 대해 알아가는 대화를 진행하는 데이터셋|
